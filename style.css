@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, sans-serif;
+    max-width:700px;
+    margin:40px auto;
+    padding:0 16px;
+    background-color:#dbe7f5;
+    color:#222;
+}
+
+h2{
+    margin-bottom: 4px;
+    color:#1f5fd6;
+}
+
+h1{
+    color:#1f5fd6;
+}
+
+h3{
+    color:#222;
+    margin-bottom: 2px;
+}
+
+li{
+    margin-bottom: 4px;
+}
