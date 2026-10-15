@@ -1,26 +1,102 @@
-body{
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    max-width:700px;
-    margin:40px auto;
-    padding:0 16px;
-    background-color:#dbe7f5;
-    color:#222;
+    background: #0b1220;
+    color: #f1f5f9;
+    line-height: 1.7;
 }
 
-h2{
-    margin-bottom: 4px;
-    color:#1f5fd6;
+/* Main header */
+header {
+    background: #111c30;
+    padding: 25px 8%;
+    border-bottom: 2px solid #22c55e;
 }
 
-h1{
-    color:#1f5fd6;
+header h1 {
+    color: #22c55e;
+    margin: 0;
 }
 
-h3{
-    color:#222;
-    margin-bottom: 2px;
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
 }
 
-li{
-    margin-bottom: 4px;
+nav a:hover {
+    color: #22c55e;
+}
+
+/* Main sections */
+section {
+    padding: 60px 8%;
+}
+
+h2 {
+    color: #22c55e;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #cbd5e1;
+}
+
+/* Project cards */
+.project,
+.card {
+    background: #111c30;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    border: 1px solid #26364d;
+}
+
+/* Buttons and links */
+button,
+.button {
+    display: inline-block;
+    background: #22c55e;
+    color: #07130b;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+    background: #16a34a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #111c30;
+    color: #cbd5e1;
+}
+
+/* Mobile-friendly layout */
+@media (max-width: 600px) {
+    header,
+    section {
+        padding: 25px 5%;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 10px 5px 0;
+    }
 }
